@@ -8,14 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController {
-    CGPoint lastPoint;
-    CGFloat red;
+@interface ViewController : UIViewController { //setting ivars
+    CGPoint lastPoint; // stores last point drawn on the canvas ; used when a long brush stroke being drawn on canvas
+    CGFloat red; // red,green,blue; for setting colours manually for the floats.
     CGFloat green;
     CGFloat blue;
-//    CGFloat brush;
-//    CGFloat opacity;
-    BOOL mouseSwiped;
+    BOOL mouseSwiped; // for dectecting if mouse/finger stroke is continuous
 }
 
 

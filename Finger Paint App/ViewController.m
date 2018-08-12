@@ -21,6 +21,29 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)redColourChosen:(UIButton *)sender {
+    // set pointer colour to red
+}
+
+- (IBAction)blueColourChosen:(id)sender {
+    // set pointer colour to blue
+}
+
+- (IBAction)greenColourChosen:(id)sender {
+    // set pointer colour to green
+    
+}
+
+- (IBAction)eraserButtonChosen:(id)sender {
+    // set pointer colour to white
+    
+}
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

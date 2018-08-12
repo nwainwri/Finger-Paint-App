@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIView *drawAreaForUser;
+
 @end
 
 @implementation ViewController
